@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Layout | layout</title>
+  </head>
+  <body>
+    <div class="Header">
+      <div class="NavBarContainer">
+        <div class="NavBar">
+          <div class="navLogo">
+            <img id="logolizimg" src="logoLiz.png" alt="" />
+          </div>
+          <div class="navMenu">
+            <div class="navmenui">
+              <div class="search-s"><i class="fas fa-search"></i></div>
+              <div class="menu-m-s menu-m-s-right">
+                <i onclick="myFunction()" class="fas fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="myDIV" style="display: none;" class="menu-disp">
+          <div class="menu-dis-one-lev">
+            <div class="menu-dis-one-lev-two">
+              <div class="one-col">
+                <h5>MENU OPTION</h5>
+              </div>
+              <div class="one-col">
+                <h5>MENU OPTION</h5>
+              </div>
+              <div class="one-col">
+                <h5>MENU OPTION</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV")
+          if (x.style.display === "none") {
+            x.style.display = "block"
+          } else {
+            x.style.display = "none"
+          }
+        }
+      </script>
+    </div>
+
+    <div class="grid-wrapper">
+      <div class="section none-nak">
+        <div class="inner-content-zero">
+          <h1>Lizbeth Hernandez</h1>
+          <div class="small-line-title"></div>
+          <p>Front-End Developer</p>
+        </div>
+      </div>
+
+      <!-- METRO PICTURE -->
+      <div class="section section-one main-titles">
+        <div class="title-left">
+          <div class="title-left-innercontent">
+            <div class="resumeLink">
+              <a href="Lizbeth_Resume.pdf"
+                ><img id="resume-img" src="resumeicon.png" alt=""
+              /></a>
+            </div>
+            <div class="resumeText">
+              <h2>Resume</h2>
+              <p>Click the icon to download</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOCIAL MEDIA -->
+      <div class="section section-two img-circles">
+        <div class="section-two-content">
+          <div class="titles-left-grid">
+            <div class="titles-left-grid-content">
+              <div class="h-three"><h3>Socila Media</h3></div>
+              <div class="under-line-h3"></div>
+            </div>
+          </div>
+          <div class="imagesright">
+            <div class="tec html">
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/lizbeth-hernandez-15bb084b/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin fa-3x"></i
+                ></a>
+              </p>
+            </div>
+
+            <div class="tec css">
+              <p>
+                <a
+                  href="https://calixliz.github.io/being_responsive/"
+                  target="_blank"
+                >
+                  <i class="fab fa-github-square fa-3x"></i>
+                </a>
+              </p>
+            </div>
+
+            <div class="tec javas">
+              <p>
+                <a href="https://twitter.com/LizbethHdezMX" target="_blank"
+                  ><i class="fab fa-twitter-square fa-3x"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENT IN SQUARES -->
+      <div class="section section-three squares">
+        <div class="section-three-content boxes-cont-33">
+          <div class="test-grid-sq">
+            <div class="test-grid-sq-container">
+              <div class="boxesabc">
+                <div class="ppp">
+                  <div class="cont-tg-cont">
+                    <div class="upper">
+                      <div class="upper-img-pic">
+                        <img id="lol" src="teo.JPG" alt="" />
+                      </div>
+                    </div>
+                    <div class="bottom">
+                      <div class="let-cont">
+                        <div class="down-text-cont">
+                          <h3>Teotihuacan</h3>
+                          <div class="line-under"></div>
+                          <p>
+                            The place where I was born. Teōtīhuacān from
+                            Nahuatl, that translate:<br />
+                            "The place where gods were born".
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="boxesabc">
+                <div class="ppp">
+                  <div class="cont-tg-cont">
+                    <div class="upper">
+                      <div class="upper-img-pic">
+                        <img id="lol" src="gdl.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="bottom">
+                      <div class="let-cont">
+                        <div class="down-text-cont">
+                          <h3>Guadalajara</h3>
+                          <div class="line-under"></div>
+                          <p>
+                            An amazing city full of folklore, like Mariachi
+                            Galas in
+                            <a
+                              href="http://en.ofj.com.mx/teatro-degollado/"
+                              target="_blank"
+                              >Degollado Theater</a
+                            >
+                            (my favorite season of the year) or the strident
+                            wrestling in Arena Coliseo.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="boxesabc">
+                <div class="ppp">
+                  <div class="cont-tg-cont">
+                    <div class="upper">
+                      <div class="upper-img-pic">
+                        <img id="lol" src="pic3.JPG" alt="" />
+                      </div>
+                    </div>
+                    <div class="bottom">
+                      <div class="let-cont">
+                        <div class="down-text-cont">
+                          <h3>Houston</h3>
+                          <div class="line-under"></div>
+                          <p>
+                            Multicultural city, where you can find the more
+                            tasty dumplings and the more wonderful people. Also
+                            <a
+                              href="https://www.duckrace.com/afa"
+                              target="_blank"
+                              >Rubber Duck Races</a
+                            >.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-grid-sq test-boxes-23">
+            <div class="test-grid-sq-container">
+              <div class="boxesabc">
+                <div class="ppp">
+                  <div class="cont-tg-cont">
+                    <div class="upper">
+                      <div class="upper-img-pic">
+                        <img id="lol" src="nypic.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="bottom">
+                      <div class="let-cont">
+                        <div class="down-text-cont">
+                          <h3>New York city</h3>
+                          <div class="line-under"></div>
+                          <p>
+                            City where is so easy to lose a plane, and where all
+                            the happy endings happen according to all the
+                            hollywood movies I've watched.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="boxesabc">
+                <div class="ppp">
+                  <div class="cont-tg-cont">
+                    <div class="upper">
+                      <div class="upper-img-pic">
+                        <img id="lol" src="toulouse.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="bottom">
+                      <div class="let-cont">
+                        <div class="down-text-cont">
+                          <h3>Toulouse</h3>
+                          <div class="line-under"></div>
+                          <p>
+                            Capital of France’s southern Occitanie region, is
+                            bisected by the Garonne River and sits near the
+                            Spanish border. It’s known as La Ville Rose (‘The
+                            Pink City’) due to the terra-cotta bricks used in
+                            many of its buildings.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="boxesabc">
+                <div class="ppp">
+                  <div class="cont-tg-cont">
+                    <div class="upper">
+                      <div class="upper-img-pic">
+                        <img id="lol" src="rome.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="bottom">
+                      <div class="let-cont">
+                        <div class="down-text-cont">
+                          <h3>Rome</h3>
+                          <div class="line-under"></div>
+                          <p>
+                            My favorite city in the world. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Numquam ab
+                            necessitatibus reiciendis vel doloribus, harum
+                            soluta amet veritatis. id accusamus eos sequi non
+                            maxime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section footer"></div>
+    </div>
+  </body>
+</html>
