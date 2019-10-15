@@ -275,7 +275,7 @@ h1 {
 #lol {
   border-bottom: 7px solid yellow;
   width: 230px;
-  height: auto;
+  max-height: 330px;
 }
 
 .down-text-cont h3 {
